@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get -y update
-sudo apt -y install unzip nginx
+sudo apt -y install unzip nginx stress
  
 sudo mv /tmp/index.html /var/www/html/index.nginx-debian.html
 
